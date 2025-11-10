@@ -1,0 +1,143 @@
+/* ===========================
+   ESTILO GENERAL
+   =========================== */
+body {
+    font-family: "Arial", sans-serif; /* Tipografía personalizada */
+    background-color: #f5f0ff; /* Fondo suave */
+    color: #333333; /* Texto oscuro para buena lectura */
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================
+   ENCABEZADO
+   =========================== */
+header {
+    background-color: #6a1b9a; /* Fondo morado */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* ===========================
+   TÍTULOS Y PÁRRAFOS
+   =========================== */
+h2, h3 {
+    color: #4a148c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #6a1b9a;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 40px;
+}
+
+/* ===========================
+   CONTENIDO PRINCIPAL
+   =========================== */
+main {
+    padding: 10px 20px;
+}
+
+/* ===========================
+   TARJETAS O BLOQUES
+   =========================== */
+.opcion {
+    background-color: #ede7f6;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.opcion:hover {
+    transform: scale(1.05);
+}
+
+.opcion img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* ===========================
+   BOTONES Y ENLACES
+   =========================== */
+a {
+    color: #8e24aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #8e24aa;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #ab47bc;
+}
+
+/* ===========================
+   LISTAS
+   =========================== */
+ul, ol {
+    margin: 15px 60px;
+    line-height: 1.7;
+    color: #4527a0;
+    font-weight: bold;
+}
+
+/* ===========================
+   IMÁGENES
+   =========================== */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ===========================
+   PIE DE PÁGINA
+   =========================== */
+footer {
+    background-color: #4a148c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
